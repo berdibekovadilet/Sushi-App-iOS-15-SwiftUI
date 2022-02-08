@@ -11,6 +11,10 @@
 		6DDB9FF527733F9200D0FBDC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DDB9FF427733F9200D0FBDC /* ContentView.swift */; };
 		6DDB9FF727733F9200D0FBDC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6DDB9FF627733F9200D0FBDC /* Assets.xcassets */; };
 		6DDB9FFA27733F9200D0FBDC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6DDB9FF927733F9200D0FBDC /* Preview Assets.xcassets */; };
+		6DDBA001277344BA00D0FBDC /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DDBA000277344BA00D0FBDC /* HomeView.swift */; };
+		6DDBA00327739EB500D0FBDC /* MenuClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DDBA00227739EB500D0FBDC /* MenuClass.swift */; };
+		6DDBA0052774D25900D0FBDC /* ItemClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DDBA0042774D25900D0FBDC /* ItemClass.swift */; };
+		6DDBA0072774E2A900D0FBDC /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DDBA0062774E2A900D0FBDC /* DetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		6DDB9FF427733F9200D0FBDC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		6DDB9FF627733F9200D0FBDC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6DDB9FF927733F9200D0FBDC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6DDBA000277344BA00D0FBDC /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		6DDBA00227739EB500D0FBDC /* MenuClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuClass.swift; sourceTree = "<group>"; };
+		6DDBA0042774D25900D0FBDC /* ItemClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemClass.swift; sourceTree = "<group>"; };
+		6DDBA0062774E2A900D0FBDC /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +61,10 @@
 			children = (
 				6DDB9FF227733F9200D0FBDC /* SushiApp.swift */,
 				6DDB9FF427733F9200D0FBDC /* ContentView.swift */,
+				6DDBA0042774D25900D0FBDC /* ItemClass.swift */,
+				6DDBA000277344BA00D0FBDC /* HomeView.swift */,
+				6DDBA0062774E2A900D0FBDC /* DetailView.swift */,
+				6DDBA00227739EB500D0FBDC /* MenuClass.swift */,
 				6DDB9FF627733F9200D0FBDC /* Assets.xcassets */,
 				6DDB9FF827733F9200D0FBDC /* Preview Content */,
 			);
@@ -137,6 +149,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6DDBA001277344BA00D0FBDC /* HomeView.swift in Sources */,
+				6DDBA0072774E2A900D0FBDC /* DetailView.swift in Sources */,
+				6DDBA00327739EB500D0FBDC /* MenuClass.swift in Sources */,
+				6DDBA0052774D25900D0FBDC /* ItemClass.swift in Sources */,
 				6DDB9FF527733F9200D0FBDC /* ContentView.swift in Sources */,
 				6DDB9FF327733F9200D0FBDC /* SushiApp.swift in Sources */,
 			);
